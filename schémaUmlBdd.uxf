@@ -1,0 +1,60 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>230</x><y>304</y><w>160</w><h>180</h></coordinates><panel_attributes>Category
+-
+category_id :  int [PK]
+-
+
+category_name :  varchar
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>304</y><w>160</w><h>180</h></coordinates><panel_attributes>article
+-
+article_id :  int [PK]
+-
+category_id :  int [SK]
+
+article_name :  varchar
+
+article_price :   float
+
+article_stock :  int
+
+article_descri  :   text
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>524</y><w>160</w><h>160</h></coordinates><panel_attributes>User
+-
+user_id :  int [PK]
+-
+user_name :  varchar
+
+user_mail :  varchar
+
+user_pass :   varchar
+
+user_role :  int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>524</y><w>160</w><h>160</h></coordinates><panel_attributes>Caddy
+-
+caddy_id :  int [PK]
+-
+article_id : int [SK]
+
+user_id : int [SK]
+
+article_quantity : int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>104</y><w>160</w><h>160</h></coordinates><panel_attributes>Comment
+-
+comment_id :  int [PK]
+-
+comment_text : text
+
+comment_activ : int
+
+article_id : int [SK]
+
+user_id : int [SK]
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>304</y><w>160</w><h>180</h></coordinates><panel_attributes>article_img
+-
+img_id :  int [PK]
+-
+img_name : varchar
+
+article_id : int [SK]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>364</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&gt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>259</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&gt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>564</y><w>50</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;30;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>439</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=&gt;-</panel_attributes><additional_attributes>10;10;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>434</y><w>30</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>404</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&gt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>199</y><w>280</w><h>30</h></coordinates><panel_attributes>lt=&gt;-</panel_attributes><additional_attributes>260;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>604</y><w>280</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>194</y><w>30</w><h>450</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;430;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>644</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&gt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>430</x><y>34</y><w>170</w><h>40</h></coordinates><panel_attributes>Schéma UML :
+ base de données</panel_attributes><additional_attributes></additional_attributes></element></diagram>

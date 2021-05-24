@@ -1,0 +1,414 @@
+/* ////////////////////////////////////////////////////////////// NAV BAR ///////////////////////////////////////////////////////////// */ 
+.btn-shop2{
+    color: rgb(255, 255, 255);
+}
+
+.navbar a{
+     color: #FFF !important;
+}
+
+.logout{
+    color: rgb(255, 255, 255) !important;
+}
+
+
+/* /////////////////////////////////////////////////// NAV ADMIN //////////////////////////////////*/
+.logout1{
+    color: rgb(255, 47, 168) !important;
+}
+
+.logo_nav{
+  width: 50px;  
+}
+
+.nav-log{
+  display: flex;
+  align-items: center;
+}
+
+.testul{
+  margin-left: 30px;
+}
+
+/* /////////////////////////////////////////////////////////// PAGE INDEX ///////////////////////////////////////////////////////////// */ 
+.titleindex{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(38, 40, 39);
+}
+
+/* logo index */
+.logoindextop{
+  margin: auto;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  height: 125px;
+  /* background-color: cyan; */
+}
+
+.card-title-index{
+    height: 65px;
+    font-weight: bold;
+}
+
+/* .img-top{
+    height: 190px;
+}  */
+
+.bannimg{
+  width: 100%;
+}
+
+/* .card_index{
+  width: 13rem;
+} */
+
+/* @media screen and (max-width: 375px){
+  .card_index{
+    width: 13rem;
+   }
+} */
+
+.card_gen{
+  padding: 10px;
+}
+
+/* /////////////////////////////////////////////////////////// PAGE SINGLE ARTICLE //////////////////////////////////////////////////// */ 
+.omtest{
+   width: 100%;
+}
+
+.img-maillot{
+    overflow: hidden;
+    
+}
+.article1{
+    margin-top: 66px;
+    
+}
+.card-article{
+    border-style: none;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.card-price{
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.card-descri1{
+    font-weight: bold;
+    font-size: 19px;   
+}
+.card-descri2{
+    color: rgb(110, 109, 109);
+    font-size: 16px; 
+    text-align: justify;
+    overflow: scroll;
+    max-height: 285px;
+}
+/* ////////////////////////////////////////////////////////// PAGE catégory produit ///////////////////////////////////////////////////// */ 
+/* */
+.maillot-descri{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.chaussures-descri{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ballons-descri{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.titre-maillot h3{
+  /* color: aquamarine;
+  text-align: center;
+  border-left: 450px solid;
+  border-right: 450px solid rgb(0, 0, 0);
+  height: 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: gray 450px solid;
+    border-right: gray 450px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    max-height: 3px; 
+}
+/* ////////////////////////////////////////////////PAGE CAT ARTICLE////////////////////////////////////// */
+
+.list-maillot{
+  margin-right: 10px;
+}
+
+.cardmaillot{
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+
+/* ////////////////////////////////////////////////////// PAGE LOGIN & SIGNIN & CONTACT //////////////////////////////////////////////// */ 
+/* meme formulaire style pour les 3*/
+.log{
+  width: 350px
+}
+
+.sign{
+    width: 350px
+}
+
+.login{
+    /* border: 5px solid greenyellow; */
+    text-align: center; 
+    padding-top: 30px;
+}
+
+.btn-log{
+    /* border: 5px solid rgb(224, 18, 156); */
+    text-align: center; 
+    padding-top: 15px;
+}
+
+.formlog{
+    /* border: 5px solid rgb(28, 108, 228); */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testlabel{
+    /* border: 5px solid rgb(252, 174, 6); */
+    text-align: left;
+}
+/* //////////////////////////////////////////////////////////// COMMENT AREA //////////////////////////////////////////////////// */ 
+/* Zone comment */
+.commentArea{
+    /* border: 5px solid greenyellow; */
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.comProduct{
+  width: 450px;
+  height: 100px;
+}
+
+.textarea{
+  width: 450px;
+  height: 100px;
+}
+
+/* //////////////////////////////////////////////////////////// article solo //////////////////////////////////////////////////// */ 
+.img-tooop{
+    width: 100%;
+    border: none;    
+}
+/* //////////////////////////////////////////////////////////// CADDY //////////////////////////////////////////////////// */ 
+.img-caddy{
+  max-height: 105px;
+  max-width: 100px;
+  margin-left: 10px;
+  /* border: 2px solid greenyellow; */
+}
+
+.name-caddy{
+  font-weight: bold;
+}
+
+.colimmgnam{
+  max-width: 550px;
+}
+
+.colquantite{
+  width: 112px;
+  align-items: center;
+   /* border: 2px solid greenyellow; */
+}
+
+.fulltab1{
+  border: 3px solid rgb(77, 75, 75);
+  background-color: rgb(255, 47, 186);
+}
+
+.fulltab{
+  /* border: 3px solid rgb(77, 75, 75);  */
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 30px;
+  /* border: 3px solid rgb(77, 75, 75); */
+  /* border-radius: 20px !important; */
+}
+
+.table{
+  border-radius: 20px !important;
+  border: 3px solid rgb(77, 75, 75);
+}
+
+.contotal{
+  padding-top: 20px;
+}
+
+/* .angleG{
+  border-radius: 16px 0 0 0;
+} */
+
+.angleD{
+  text-align: right;
+  margin-right: 5px;
+}
+
+/* bouton paiement */
+.btn-paiement{
+  display: flex;
+  justify-content: center;
+}
+/* ////////////////////////////////////////////////////////////// PAGE MESSAGES ////////////////////////////////////////////////////////////// */ 
+/*  */
+.headhaut{
+  border: 3px solid rgb(7, 235, 140) !important;
+  background-color: rgb(247 0 0 /100%);
+ 
+}
+
+/* //////////////////////////////////////////////////////////// FOOTER //////////////////////////////////////////////////// */ 
+/*  */
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+}
+
+.fa-facebook,
+.fa-instagram,   
+.fa-twitter,
+.fa-github,
+.fa-youtube{
+  width: 65px;
+}
+
+.container-fluid{
+  background-image: url("../img/testfooter.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.generalfooter{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* @media screen and (max-width: 375px){
+  .contenu-footer{
+    background-color: deeppink;
+  } 
+} */
+
+.footer-service,
+.footer-contact,
+.footer-horaires,
+.footer-media{
+  padding-top: 20px;
+}
+
+.footer-contact h3,
+.footer-service h3,
+.footer-horaires h3,
+.footer-contact h3,
+.footer-media h3 {
+  font-size: 25px;
+  padding-bottom: 5px;
+  /* background-color: dodgerblue; */
+  color: rgb(109, 112, 111);
+}
+
+.liste-service,
+.liste-horaires,
+.footer-contact,
+.liste-media{
+  list-style-type: none;
+}
+
+.liste-horaires li{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+
+.liste-service a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.liste-services a:hover{
+  color: rgb(255, 255, 255);
+}
+
+.footer-contact p{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.footer-media a{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+    
+.indeximg{
+  width: 100%;
+
+}
+.sizeimg{
+height: 300px;
+
+}
+
+.titreaindexadmin{
+  padding-top: 20px;
+  color: blue;
+}
+/* /////////////////// NAV BAR ////////////////////////////////////////////////////////// */
+.logofoot{
+  max-height: 45px;
+  max-width: 45px;
+  height: 45px;
+  width: 45px;
+}
+
+.nomlogo{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* /////////////////// MEDIA QUERY ////////////////////////////////////////////////////////// */
+@media screen and (max-width: 992px){
+  .testul{
+    margin-left: 0;
+  }
+}
